@@ -58,6 +58,8 @@ function readAloud(message) {
     if (message.includes("bye")) {
         const go2 = "Thanks now i will finally get rid out of your dumb and stupid nonsense";
         speech.text = go2;
+    } else if (message.includes("you s word")) {
+        const badword = "You are a big f worded a word hole";
     }
     speech.volume = 1;
     speech.rate = 1;
